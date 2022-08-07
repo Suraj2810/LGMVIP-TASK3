@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+
+    background: linear-gradient(to left,#cad0ff,#e3e3e3);
+    text-align: center;
+    border: double 5px black;
+}
+h1{
+    color: black;
+    background-color: aliceblue;
+    text-decoration: underline;
+}
+.hii{
+    text-align: center;
+    border: black 2px solid;
+}
+#inputt{
+   
+}
+#nameDiv{
+    margin-top: 60px;
+
+}
+.input{
+    font-size: 20px;
+    color: black;
+    font-weight: 70;
+    font-family: "Monospace";
+    margin: 18px;
+   
+    
+}
+#entry {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: moccasin;
+    margin-top: 10px;
+}
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 50px auto;
+}
+table, th, td{
+    border: 2px solid black;
+    padding: 5px;
+}
+th {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Monospace";
+    color: black;
+}
+td {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Monospace";
+    color: black;    
+}

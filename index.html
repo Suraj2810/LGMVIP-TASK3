@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Student Enrollment Form</title>
+        <link rel="stylesheet" type="text/css" href="task3.css" />
+    </head>
+    <body>
+
+        <div id="container">
+
+            <div id="nameDiv" class="input">
+                <h1>
+                    STUDENT REGISTRATION FORM
+                </h1>
+            </div>
+        <div id="inputt">   
+            <div id="nameDiv" class="input">NAME: <input id="name" type="text" placeholder="Enter Your Name"  required/>
+
+            </div>
+            <div  class="input">EMAIL:     <input id="email" type="text" placeholder="abc@gmail.com" required/> 
+
+            </div>
+            <div  class="input">AGE:<input id="age" type="text" placeholder="Enter Your Age"  required/> 
+
+            </div>
+            <div  class="input">PH NO: <input id="mobile" type="text" min="10" max="10" placeholder="Enter Your Number" required/>
+             </div>
+            <div  class="input">GENDER:<input id="gender2" type="radio" name="gender" value="MALE">MALE </input>
+
+                <input id="gender1" type="radio" name="gender" value="FEMALE"> FEMALE</input>
+
+            </div>  
+            <div  class="input">SKILLS:  <input id="check1" type="checkbox" name="check" value="HTML"> 
+
+                <label for="check1">HTML </label>
+            
+                <input id="check2" type="checkbox" name="check" value="CSS"> 
+
+                <label for="check2"> CSS</label>
+
+                <input id="check3" type="checkbox" name="check" value="JAVA SCRIPT"> 
+
+                <label for="check3"> JAVA SCRIPT</label>
+            </div>        
+        </div>        
+            <br>
+            <button id="entry">REGISTER</button>
+            <br>
+        </div>
+        <table id="display">
+            <tr>
+                <th>NAME</th>
+                <th>EMAIL</th>
+                <th>AGE</th>
+                <th>CONTACT NUMBER</th>
+                <th>GENDER</th>
+                <th>SKILLS</th>
+            </tr>
+        </table>
+        <script src="form.js"> </script>
+    </body>
+</html>
